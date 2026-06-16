@@ -1,24 +1,9 @@
-# main.py
+# Reverse a string
 
-from string_utils import StringOperations
+text = input("Enter a string: ")
 
+reverse = text[::-1]
 
-def get_input():
-    user_input = input("Enter a string: ")
-    return user_input
+print("hi")
 
-
-def main():
-
-    text = get_input()
-
-    string_obj = StringOperations(text)
-
-    reversed_text = string_obj.reverse_string()
-
-    
-    print("Reversed String:", reversed_text)
-
-
-if __name__ == "__main__":
-    main()
+print("Reversed string:", reverse)
