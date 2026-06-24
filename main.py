@@ -155,7 +155,10 @@ def project_creation():
     print("npm install")
     print("npm start")
 
+def add(a,b):
+    return a+b
 
+print(add(5,3))
 
 project_creation()
 
