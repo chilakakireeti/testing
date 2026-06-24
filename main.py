@@ -25,6 +25,9 @@ files = {
         "scripts": {
             "start": "node server.js",
             "dev": "nodemon server.js"
+
+
+            
         },
         "dependencies": {
             "cors": "^2.8.5",
