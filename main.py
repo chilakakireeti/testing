@@ -2,6 +2,7 @@
 
 import os
 import json
+import time
 
 PROJECT_NAME = "express-health-api"
 
@@ -110,13 +111,13 @@ module.exports = router;
 
 
     "middleware/index.js": """
-// Custom middleware will be added here
+// Custom middleware will be added here and used
 """
 }
 
 
 
-def create_project():
+def project_creation():
 
     os.makedirs(PROJECT_NAME, exist_ok=True)
 
@@ -156,6 +157,6 @@ def create_project():
 
 
 
-create_project()
+project_creation()
 
 #data for testing
